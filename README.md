@@ -54,5 +54,9 @@ podemos fazer alguns testes no insominia para algumas rotas
 
 // imagem resultado
 
-ainda nos controllers vamos implementar a like entre devs
-//LikeController.js
+ainda nos controllers vamos implementar a like e dislike entre devs
+//LikeController.js (code)
+//DislikeController.js (code)
+ 
+ Testes no insominia
+ //imagens
