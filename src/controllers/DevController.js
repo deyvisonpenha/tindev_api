@@ -27,7 +27,7 @@ module.exports = {
       return res.json(userExists);
     }
 
-    const response = await axios.get(`https://api.github.com/users/${username}`,{ 'headers': { 'Accept': application/vnd.github.v3+json });
+    const response = await axios.get(`https://api.github.com/users/${username}`,{ 'headers': { 'Accept': 'application/vnd.github.v3+json' });
     const { name, bio, avatar_url: avatar } = response.data;
 
     const dev = await Dev.create({
